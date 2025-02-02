@@ -1,0 +1,29 @@
+print("Hello, world")
+print("Bonjour Tout le monde")
+print(2+3)
+print(2*3)
+print(2-3)
+# Print your name
+print("My name is Dipikaa!")
+
+# Do a math calculation
+sum_result = 13+6+9+12
+print("13+6+9+12 equals", sum_result)
+
+
+import random  # We'll use the random module to pick a pun randomly
+
+# List of spicy, tech-inspired sexual puns
+puns = [
+    "Are you a seductive algorithm? Because you make my circuits tingle.",
+    "I must be a data packet, because I feel a strong connection when you're near.",
+    "Are you a compiler? Because you leave my code all hot and bothered.",
+    "Are you a server? Because I’d love to establish a connection that lasts all night."
+]
+
+# Pick a random pun from the list
+random_pun = random.choice(puns)
+
+# Print the chosen pun
+print("Here's your spicy tech pun:")
+print(random_pun)
